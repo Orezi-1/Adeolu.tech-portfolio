@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import React, { useState } from 'react';
 import LoadingScreen from './components/LoadingScreen';
 import "./index.css";
@@ -26,6 +27,7 @@ function App() {
         <Project />
         <Contact />
 
+        <Analytics />
       </div>
     </>
   )
