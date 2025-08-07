@@ -30,9 +30,9 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-center justify-center py-20">
+      className="min-h-screen flex items-center justify-center py-5">
         <RevealOnScroll>
-        <div className="px-4 max-w-5/6 w-screen mx-auto">
+        <div className="px-4 md:max-w-[70%] w-screen mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-center bg-gradient-to-r from-blue-800
              to-purple-500 bg-clip-text text-transparent">
                 Contact Me
