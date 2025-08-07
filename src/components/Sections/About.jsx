@@ -13,7 +13,6 @@ const About = () => {
     "Node.js",
     "Express",
     "MongoDB",
-    "PostgreSQL",
     "REST APIs",
   ];
 
