@@ -51,7 +51,7 @@ const Project = () => {
                       This is a project I built during my time at Codar. It showcases my skills in frontend web development and design.
                     </p>
                     <div>
-                        {["React", "Node.js", "Fetch API","Vite"].map((tech, key) => {
+                        {["React", "Node.js", "Tailwind CSS","Vite"].map((tech, key) => {
                           return (
                             <span
                               key={key}
@@ -105,13 +105,14 @@ const Project = () => {
                 <div className="p-5 rounded-xl border-white/10 border shadow-md hover:shadow-lg
                   hover:-translate-y-1 transition-all hover:border-amber-500/30">
                     <h2 className="text-2xl font-semibold mb-2 text-left">
-                      Movie Site
+                      My Portfolio
                     </h2>
                     <p className="text-gray-400 mb-4 ">
-                      API generated site. Designed to show the latest and trending movies and for any movie search
+                      This a personal portfolio website showcasing my skills, projects, and experience.
+                      It serves as a platform to highlight my work and connect with potential clients or employers.
                     </p>
                     <div>
-                        {["React", "Node.js", "Fetch API","Vite"].map((tech, key) => {
+                        {["React", "Node.js", "Tailwind CSS","Vite"].map((tech, key) => {
                           return (
                             <span
                               key={key}
@@ -125,7 +126,7 @@ const Project = () => {
                     </div>
 
                     <div className="flex justify-between items-center mt-4">
-                        <a href="https://movie-site-six-sage.vercel.app/"
+                        <a href="#"
                           className="text-blue-400 hover:text-blue-600 transition-colors font-medium">
                           Click to View Project 
                         </a>
